@@ -1,6 +1,3 @@
-// var todolist=[];
-// var id=1;
-
 function addList(){
     var title=$('#title').val();
     var message=$("#message").val();
@@ -15,20 +12,6 @@ function addList(){
             $("#title").val("");
             $("#message").val("");
         });
-
-
-        // var newtodo={
-        //     "id":id,
-        //     "title":title,
-        //     "content":message,
-        //     "status":false
-        // };
-        // todolist.push(newtodo);
-        // newList(newtodo);
-        // id++;
-        // //欄位清空
-        // $("#title").val("");
-        // $("#message").val("");
     }
 }
 function getList(){
@@ -118,9 +101,6 @@ function removeList(id){
             $("#"+id).remove();
         }
     });
-    // var index=todolist.findIndex(element=>element.id==id);
-    // todolist.splice(index,1);
-    // $("#"+id).remove();
 }
 function changeStatus(id,btnstatus){
     //btnstatus為checkbox checked與否
