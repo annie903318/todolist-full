@@ -1,8 +1,22 @@
-body {
+body{
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
-a {
-  color: #00B7FF;
+.content{
+  margin: 10px 0;
+}
+.title, .title2{
+  background-color: #00B7FF;
+  padding: 10px 10px;
+  font-size: 18px;
+}
+.title2, .message2{
+  text-decoration: line-through;
+}
+.message, .message2{
+  background-color: #dcf4fd;
+  padding: 10px 10px;
+}
+.i_btn{
+  float: right;
+  margin: 1px;;
 }
